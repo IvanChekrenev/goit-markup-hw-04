@@ -126,6 +126,19 @@ button {
   display: flex;
   margin-left: auto;
 }
+.header-mail-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.header-phone-icon {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
 
 .link.contact {
   font-weight: 500;
@@ -133,6 +146,10 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .list.contact .contact-item:not(:last-child) {
   margin-right: 50px;
@@ -142,11 +159,7 @@ button {
 .link.contact:focus {
   color: var(--third-headertext-color);
 }
-.link.contact {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  display: block;
-}
+
 .contact-item {
   display: block;
 }
@@ -157,6 +170,16 @@ button {
   background: #2f303a;
   padding-bottom: 200px;
   padding-top: 200px;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/ImgBG.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .hero-text {
@@ -303,6 +326,18 @@ button {
 
   text-align: center;
 }
+/* ------------------------------clients----------------------------------- */
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 /* ------------------------------footer------------------------------------ */
 .footer-all {
   background: #2f303a;
