@@ -355,18 +355,16 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #afb1b8;
 }
 
 .social-icon {
-  fill: var(--firs-icon-color);
+  fill: currentColor;
 }
 .social-links:hover,
 .social-links:focus {
   background-color: var(--main-logo-color);
-}
-.social-icon:hover,
-.social-icon:focus {
-  fill: var(--main-title-color);
+  color: #ffffff;
 }
 
 /* ------------------------------clients----------------------------------- */
@@ -385,8 +383,6 @@ button {
   justify-content: space-between;
 }
 .client-item {
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
   border-radius: 4px;
   width: 170px;
   height: 92px;
@@ -395,24 +391,24 @@ button {
   justify-content: center;
 }
 .client-link {
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
+  color: #afb1b8;
 }
 
 .client-icon {
-  fill: var(--firs-icon-color);
+  fill: currentColor;
 }
-.client-item:hover,
-.client-item:focus {
+
+.client-link:focus,
+.client-link:hover {
   border-color: var(--main-logo-color);
-  fill: var(--third-footertext-color);
-}
-.client-icon:hover,
-.client-icon:focus {
-  fill: var(--third-headertext-color);
+  color: #2196f3;
 }
 
 /* ------------------------------footer------------------------------------ */
