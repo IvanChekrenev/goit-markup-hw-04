@@ -483,6 +483,10 @@ button {
 .social-links.footer {
   background-color: rgba(255, 255, 255, 0.1);
 }
+.social-links.footer:hover,
+.social-links.footer:focus {
+  background-color: var(--third-footertext-color);
+}
 
 /* ---------------------------Portfolio---------------------- */
 /* ---------------------------filter -------------------------*/
