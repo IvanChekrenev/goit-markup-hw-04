@@ -179,7 +179,7 @@ button {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/ImgBG.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -338,6 +338,7 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 16px;
 }
 .social-list {
   display: flex;
@@ -357,7 +358,9 @@ button {
   align-items: center;
   color: #afb1b8;
 }
-
+.social-items:not(:last-child) {
+  margin-right: 10px;
+}
 .social-icon {
   fill: currentColor;
 }
@@ -456,9 +459,7 @@ button {
 /* ---------------------------join---------------------------- */
 .container.footer {
   display: flex;
-}
-.join {
-  padding-top: 12px;
+  align-items: baseline;
 }
 
 .join-headers {
@@ -478,6 +479,9 @@ button {
 }
 .social-icon.footer {
   fill: #ffffff;
+}
+.social-links.footer {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* ---------------------------Portfolio---------------------- */
